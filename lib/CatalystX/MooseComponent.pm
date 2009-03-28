@@ -1,5 +1,5 @@
 package CatalystX::MooseComponent;
-our $VERSION = '0.001';
+our $VERSION = '0.002';
 
 # ABSTRACT: Ensure your Catalyst component isa Moose::Object
 
@@ -39,11 +39,14 @@ CatalystX::MooseComponent - Ensure your Catalyst component isa Moose::Object
 
 =head1 VERSION
 
-version 0.001
+version 0.002
 
 =head1 SYNOPSIS
 
-  package My::CatalystComponent;
+  package MyApp::Controller::Foo;
+
+  use Moose;
+  BEGIN { extends 'Catalyst::Controller' }
   use CatalystX::MooseComponent;
 
   # My::CatalystComponent now isa Moose::Object
