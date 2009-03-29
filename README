@@ -1,7 +1,7 @@
 
 
 This archive contains the distribution CatalystX-MooseComponent, version
-0.002:
+0.003:
 
   Ensure your Catalyst component isa Moose::Object
 

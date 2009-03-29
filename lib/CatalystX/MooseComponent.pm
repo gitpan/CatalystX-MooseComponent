@@ -1,5 +1,5 @@
 package CatalystX::MooseComponent;
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 
 # ABSTRACT: Ensure your Catalyst component isa Moose::Object
 
@@ -39,7 +39,7 @@ CatalystX::MooseComponent - Ensure your Catalyst component isa Moose::Object
 
 =head1 VERSION
 
-version 0.002
+version 0.003
 
 =head1 SYNOPSIS
 
@@ -75,4 +75,9 @@ This software is copyright (c) 2009 by Hans Dieter Pearcey.
 
 This is free software; you can redistribute it and/or modify it under
 the same terms as perl itself.
+
+=head1 CREDIT
+
+Based on code from L<Catalyst::Controller::ActionRole> by Florian Ragwitz
+<rafl@debian.org>.
 

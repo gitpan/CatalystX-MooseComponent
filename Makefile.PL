@@ -9,7 +9,7 @@ WriteMakefile(
   NAME      => 'CatalystX::MooseComponent',
   AUTHOR    => 'Hans\ Dieter\ Pearcey\ \<hdp\@cpan\.org\>',
   ABSTRACT  => 'Ensure your Catalyst component isa Moose::Object',
-  VERSION   => '0.002',
+  VERSION   => '0.003',
   EXE_FILES => [ qw() ],
   (eval { ExtUtils::MakeMaker->VERSION(6.21) } ? (LICENSE => 'perl') : ()),
   PREREQ_PM    => {
